@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI颠覆传统学习范式理论框架</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', 'PingFang SC', 'Helvetica Neue', Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .container {
+            background-color: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .mermaid {
+            display: flex;
+            justify-content: center;
+        }
+        .description {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+        }
+        .description h2 {
+            color: #666;
+            margin-bottom: 15px;
+        }
+        .description ul {
+            line-height: 1.8;
+        }
+        .legend {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <h1>AI颠覆传统学习范式理论框架</h1>
+
+    <div class="container">
+        <div class="mermaid">
+            graph TB
+                subgraph "AI颠覆传统学习范式理论框架"
+                    A[学习方式维度] --> D[AI私教系统]
+                    B[学习者角色维度] --> D
+                    C[教师角色维度] --> D
+
+                    subgraph A[学习方式维度]
+                        A1[个性化学习路径]
+                        A2[实时反馈机制]
+                        A3[智能推荐系统]
+                        A4[学习闭环设计]
+                    end
+
+                    subgraph B[学习者角色维度]
+                        B1[被动接受者 → 主动探索者]
+                        B2[自主性增强]
+                        B3[元认知能力培养]
+                    end
+
+                    subgraph C[教师角色维度]
+                        C1[知识传授者 → 学习引导者]
+                        C2[课堂管理者 → 学习设计师]
+                        C3[评估执行者 → 学习诊断师]
+                    end
+
+                    D --> E[学习范式转变]
+
+                    subgraph E[学习范式转变]
+                        E1[线性学习 → 闭环学习]
+                        E2[被动接受 → 主动探索]
+                        E3[知识传授 → 引导设计]
+                    end
+                end
+
+                style A fill:#e1f5fe
+                style B fill:#f3e5f5
+                style C fill:#e8f5e8
+                style D fill:#fff3e0
+                style E fill:#fce4ec
+        </div>
+    </div>
+
+    <div class="description">
+        <h2>图表说明</h2>
+        <ul>
+            <li><strong>学习方式维度</strong>（浅蓝色）：包括个性化学习路径、实时反馈机制、智能推荐系统和学习闭环设计</li>
+            <li><strong>学习者角色维度</strong>（浅紫色）：学习者从被动接受者转变为主动探索者，自主性和元认知能力增强</li>
+            <li><strong>教师角色维度</strong>（浅绿色）：教师从知识传授者转变为学习引导者、设计师和诊断师</li>
+            <li><strong>AI私教系统</strong>（浅橙色）：作为核心驱动力，连接三个维度</li>
+            <li><strong>学习范式转变</strong>（浅粉色）：最终实现从线性学习到闭环学习、被动接受到主动探索、知识传授到引导设计的转变</li>
+        </ul>
+    </div>
+
+    <div class="legend">
+        <div class="legend-item">
+            <div class="legend-color" style="background-color: #e1f5fe;"></div>
+            <span>学习方式维度</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background-color: #f3e5f5;"></div>
+            <span>学习者角色维度</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background-color: #e8f5e8;"></div>
+            <span>教师角色维度</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background-color: #fff3e0;"></div>
+            <span>AI私教系统</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background-color: #fce4ec;"></div>
+            <span>学习范式转变</span>
+        </div>
+    </div>
+
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            flowchart: {
+                useMaxWidth: true,
+                htmlLabels: true,
+                curve: 'basis'
+            }
+        });
+    </script>
+</body>
+</html>
