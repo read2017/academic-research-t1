@@ -12,7 +12,7 @@
 
 - **Learn anything skill**: https://github.com/read2017/learn-anything-with-AI
 - **小红书**: https://www.xiaohongshu.com/user/profile/66bb82f3000000001d0301f7
-- **视频教程链接**：占位
+- **视频教程链接**:https://www.xiaohongshu.com/discovery/item/6a1f9af500000000220186bb?source=webshare&xhsshare=pc_web&xsec_token=ABcEYaL7t1FElwWsmzCo4B-WL6SKX6MwBjZ0Pxk26XW_I=&xsec_source=pc_share
 ---
 
 ## 🎯 项目目标
